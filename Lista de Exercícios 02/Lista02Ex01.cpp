@@ -1,7 +1,7 @@
+//Apresentar todos os números divisíveis por 4 que sejam menores que 200.
 #include<stdio.h>
 #include<stdlib.h>
 #include <locale.h>
-//Apresentar todos os números divisíveis por 4 que sejam menores que 200.
 
 int i;
 

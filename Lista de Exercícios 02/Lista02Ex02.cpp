@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<locale.h>
 #include<string.h>
+//Receber um nome e imprimir as 4 primeiras letras do nome, use o comando “strlen”.
 
 char nome[50];
 int i,num;
@@ -18,7 +19,7 @@ int main(){
 			printf("\n%c",nome[i]);
 		}
 	}else{
-		printf("O nome informado n�o possui o m�nimo de caracteres!");
+		printf("O nome informado não possui o mínimo de caracteres!");
 	}
 	return(0);
 }

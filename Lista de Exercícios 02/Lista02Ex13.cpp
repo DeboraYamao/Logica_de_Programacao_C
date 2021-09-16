@@ -1,3 +1,4 @@
+//Digite um nome, calcule e mostre quantas letras tem.
 #include<stdio.h>
 #include<stdlib.h>
 #include<locale.h>
@@ -16,7 +17,7 @@ int main(){
 	if(num!=0){
 		printf("O nome informado possui %d caracteres!",num);	
 	}else{
-		printf("Nome n„o informado.");
+		printf("Nome n√£o informado.");
 	}
 	return(0);
 }

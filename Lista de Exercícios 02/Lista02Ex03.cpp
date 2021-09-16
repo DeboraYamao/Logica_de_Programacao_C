@@ -1,3 +1,4 @@
+//Ler nome, sexo e idade. Se sexo for masculino e idade maior que 18. Imprimir o nome da pessoa e a palavra ALISTAMENTO. Caso contrário imprimir NÃO ESTÁ APTO. 
 #include<stdio.h>
 #include<stdlib.h>
 #include<locale.h>
@@ -17,7 +18,7 @@ int main(){
 	if(sexo==1 && idade>18){
 		printf("\n%s ALISTAMENTO.",nome);
 	}else{
-		printf("\nN�O EST� APTO.");
+		printf("\nNÃO ESTÁ APTO.");
 	}
 	return(0);
 }

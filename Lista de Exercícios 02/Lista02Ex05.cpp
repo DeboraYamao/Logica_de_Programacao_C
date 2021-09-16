@@ -2,7 +2,6 @@
 //   a. Não-eleitor (abaixo de 16 anos)  
 //   b. Eleitor obrigatório (entre 18 e 65 anos)  
 //   c. Eleitor facultativo (entre 16 e 18 e maior de 65anos) 
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<locale.h>

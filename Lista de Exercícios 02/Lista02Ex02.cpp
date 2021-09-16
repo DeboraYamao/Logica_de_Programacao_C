@@ -1,8 +1,8 @@
+//Receber um nome e imprimir as 4 primeiras letras do nome, use o comando “strlen”.
 #include<stdio.h>
 #include<stdlib.h>
 #include<locale.h>
 #include<string.h>
-//Receber um nome e imprimir as 4 primeiras letras do nome, use o comando “strlen”.
 
 char nome[50];
 int i,num;

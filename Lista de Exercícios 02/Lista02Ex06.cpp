@@ -1,3 +1,4 @@
+//Ler 2 valores e somar os dois. Caso a soma seja maior que 10, mostrar a soma.
 #include<stdio.h>
 #include<stdlib.h>
 #include<locale.h>
@@ -6,17 +7,17 @@ int num1,num2,soma;
 
 int main(){
 	setlocale(LC_ALL,"Portuguese");
-	printf("Digite o 1º número: ");
+	printf("Digite o 1Âº nÃºmero: ");
 	scanf("%d",&num1);
-	printf("Digite o 2º número: ");
+	printf("Digite o 2Âº nÃºmero: ");
 	scanf("%d",&num2);
 	
 	soma=num1+num2;
 	
 	if(soma>10){
-		printf("\nA soma dos valore é: %d",soma);
+		printf("\nA soma dos valore Ã©: %d",soma);
 	}else{
-		printf("\nA soma dos valores é menor que 10.");
+		printf("\nA soma dos valores Ã© menor que 10.");
 	}
 	return(0);
 }

@@ -1,4 +1,4 @@
-//a média de 2 notas de 2 alunos
+//a média de 2 notas de 4 alunos
 #include<stdio.h>
 #include<stdlib.h>
 #include<locale.h>
